@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+      background-color: green;
+      color: yellow;
+    }
+    section{
+      width: 95%;
+      margin: auto auto;
+      border: thick white solid;
+    }
+   }
+
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,42 +23,36 @@
 
 <style>
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  body{
-    text-align: center;
-    color: #000;
-  }
-  h1{
-    color: #FFF;
-  }
- }
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px)  {
   body{
     background-color: blue;
+    color: green;
   }
  }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+body{
+  background-color: pink;
+  color: blue;
+  font-size: 3em;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
   body{
-    background-color: green;
+    background-color: red;
+    color: white;
   }
  }
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  body{
-    background-color: yellow;
-  }
- }
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  body{
-    background-color: purple;
-  }
- }
+
+
+section{
+  width: 50%;
+  margin: auto auto;
+  border: thin white solid;
+}
+
 </style>
 </head>
 <body>
@@ -58,6 +67,19 @@
     <p>i like to talk BOUT WEB</p>
     <p>i like to talk BOUT WEB</p>
   </section>
+  <style>
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    body{
+      background-color: yellow;
+      color: green;
+    }
+   }
+
+
+
+
+  </style>
   <section>
     <h3>lets discuss something</h3>
     <p>i like to talk BOUT WEB</p>
@@ -65,6 +87,26 @@
     <p>i like to talk BOUT WEB</p>
     <p>i like to talk BOUT WEB</p>
   </section>
+
   <footer>my footer</footer>
+
+
+
+<style>
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    body{
+      background-color: purple;
+      color: orange;
+    }
+   }
+</style>
+
+
 </body>
+
+
+
+
+
 </html>
